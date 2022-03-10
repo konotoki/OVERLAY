@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="boostmeter.css">
+          <title>Boost Meter</title>
+        </head>
+        <body>
+
+          <svg
+            class="progress-ring"
+            height="120"
+            width="120"
+          >
+            <circle
+              class="progress-ring__circle"
+              stroke="white"
+              stroke-width="4"
+              fill="transparent"
+              r="52"
+              cx="60"
+              cy="60"/>
+          </svg>
+
+          <input
+            value="35"
+            type="number"
+            step="5"
+            min="0"
+            max="100"
+            placeholder="progress"
+          >
+          <script src="boostmeter.js"></script>
+  </body>
+</html>
