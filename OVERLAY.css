@@ -1,3 +1,96 @@
+* {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+
+header {
+  position: relative;
+  left: 17.5%;
+  text-align: center;
+  width: fit-content;
+  font-size: 20px;
+  color: white;
+}
+.blueLeft {
+  position: absolute;
+  top: 14px;
+  left: 90px;
+}
+.leftNum {
+  position: absolute;
+  top: 14px;
+  left: 32%;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rightNum {
+  position: absolute;
+  top: 14px;
+  right: 32%;
+}
+.orangeRight {
+  position: absolute;
+  top: 14px;
+  right: 90px;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sectionLeft {
+  position: relative;
+  left: 10px;
+  text-align: center;
+  width: fit-content;
+  color: white;
+}
+.nameLeft {
+  position: absolute;
+  top: 11px;
+  left: 15px;
+}
+.numLeft {
+  position: absolute;
+  top: 11px;
+  right: 25px;
+
+}
+
+.sectionRight {
+  position: relative;
+  right: 10px;
+  text-align: center;
+  width: fit-content;
+  color: white;
+}
+.nameRight {
+  position: absolute;
+  top: 11px;
+  right: 15px;
+}
+.numRight {
+  position: absolute;
+  top: 11px;
+  left: 25px;
+}
+
 .scorebug {
   position: absolute;
   top: 15px;
