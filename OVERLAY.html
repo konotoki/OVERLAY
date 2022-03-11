@@ -8,16 +8,29 @@
     <title>RL Scoreboard Overlay</title>
   </head>
   <body>
-      <!-- Score Board -->
-      <header>
-          <img src="./Pics/Score-Board.png" alt="Rocket League Scoreboard">
-          <div class="blueLeft">Blue</div>
-          <div class="leftNum">1</div>
-          <div class="center">timer</div>
-          <div class="rightNum">0</div>
-          <div class="orangeRight">Orange</div>
-      </header>
+    <!-- Score Board -->
+    <header class="scorebug">
+      <img src="./Pics/Score-Board.png" alt="Rocket League Scoreboard">
+      <div class="blueLeft">Blue</div>
+      <div class="leftNum team left score">1</div>
+      <div class="center">timer</div>
+      <div class="rightNum team right score">0</div>
+      <div class="orangeRight">Orange</div>
+    </header>
 
+    <!-- <div class="scorebug">
+        <table class="team-info">
+            <tr class="team left">
+                <th class="name">Blue</th>
+                <td class="score">1</th>
+            </tr>
+            <tr class="team right">
+                <th class="name">Orange</th>
+                <td class="score">0</th>
+            </tr>
+        </table>
+    </div> -->
+    
       <div>
         <!-- Left Section That Holds The Names -->
         <div class="card1">
@@ -66,18 +79,6 @@
 
 
 
-    <!-- <div class="scorebug">
-        <table class="team-info">
-            <tr class="team left">
-                <th class="name">Blue</th>
-                <td class="score">1</th>
-            </tr>
-            <tr class="team right">
-                <th class="name">Orange</th>
-                <td class="score">0</th>
-            </tr>
-        </table>
-    </div> -->
     <!-- <div>
       { goalJustScored === false ? <MainOverlay /> : <GoalOverlay />} 
     </div> -->
